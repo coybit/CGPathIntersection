@@ -13,6 +13,7 @@
 		2EFEF69B1DD8E03200EA383E /* CGPath+Intersections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFEF69A1DD8E03200EA383E /* CGPath+Intersections.swift */; };
 		2EFEF69F1DD8F6BD00EA383E /* UIImage+RawPixels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFEF69E1DD8F6BD00EA383E /* UIImage+RawPixels.swift */; };
 		2EFEF6A11DD8FFE400EA383E /* Array+CoalescePoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFEF6A01DD8FFE400EA383E /* Array+CoalescePoints.swift */; };
+		82A1D54221AEC366009EBCA0 /* CachedDiffablePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A1D54121AEC366009EBCA0 /* CachedDiffablePath.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		2EFEF69A1DD8E03200EA383E /* CGPath+Intersections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPath+Intersections.swift"; sourceTree = "<group>"; };
 		2EFEF69E1DD8F6BD00EA383E /* UIImage+RawPixels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+RawPixels.swift"; sourceTree = "<group>"; };
 		2EFEF6A01DD8FFE400EA383E /* Array+CoalescePoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+CoalescePoints.swift"; sourceTree = "<group>"; };
+		82A1D54121AEC366009EBCA0 /* CachedDiffablePath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedDiffablePath.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				2EFEF6821DD8D48800EA383E /* Info.plist */,
 				2EFEF6981DD8D5F000EA383E /* CGPathImage.swift */,
 				2EFEF69A1DD8E03200EA383E /* CGPath+Intersections.swift */,
+				82A1D54121AEC366009EBCA0 /* CachedDiffablePath.swift */,
 				2EFEF69E1DD8F6BD00EA383E /* UIImage+RawPixels.swift */,
 				2EFEF6A01DD8FFE400EA383E /* Array+CoalescePoints.swift */,
 			);
@@ -212,6 +215,7 @@
 				2EFEF6991DD8D5F000EA383E /* CGPathImage.swift in Sources */,
 				2EFEF69B1DD8E03200EA383E /* CGPath+Intersections.swift in Sources */,
 				2EFEF69F1DD8F6BD00EA383E /* UIImage+RawPixels.swift in Sources */,
+				82A1D54221AEC366009EBCA0 /* CachedDiffablePath.swift in Sources */,
 				2EFEF6A11DD8FFE400EA383E /* Array+CoalescePoints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

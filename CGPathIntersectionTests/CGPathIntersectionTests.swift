@@ -96,6 +96,22 @@ class CGPathIntersectionTests: XCTestCase {
         XCTAssertEqual(intersectionPoint.y, 753.0, accuracy: 1.0)
     }
     
+    func testFastIntersectionExample() {
+        let path1 = CGPath.line(from: CGPoint(x: 403, y: 1167), to: CGPoint(x: 324, y: 462))
+        let path2 = CGPath.line(from: CGPoint(x: 101, y: 835), to: CGPoint(x: 649, y: 659))
+        let cachedDiffablePath1 = CachedDiffablePath(from: path1)
+        let cachedDiffablePath2 = CachedDiffablePath(from: path2)
+        
+        XCTAssertTrue(cachedDiffablePath1.intersects(path: cachedDiffablePath2))
+        
+        let intersectionPoints = cachedDiffablePath1.intersectionPoints(with: cachedDiffablePath2)
+        XCTAssertEqual(intersectionPoints.count, 1)
+        
+        let intersectionPoint = intersectionPoints.first!
+        XCTAssertEqual(intersectionPoint.x, 357.0, accuracy: 1.0)
+        XCTAssertEqual(intersectionPoint.y, 753.0, accuracy: 1.0)
+    }
+    
 }
 
 
